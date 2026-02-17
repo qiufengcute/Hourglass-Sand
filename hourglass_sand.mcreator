@@ -1,0 +1,327 @@
+{
+  "mod_elements": [
+    {
+      "name": "OpenGUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/hourglasssand/procedures/OpenGUIProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HourglassSand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hourglass_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hourglass_sand/items/hourglass_sand.json",
+          "src/main/resources/assets/hourglass_sand/models/item/hourglass_sand.json",
+          "src/main/java/net/mcreator/hourglasssand/item/HourglassSandItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ControlGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "control_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/hourglasssand/world/inventory/ControlGUIMenu.java",
+          "src/main/java/net/mcreator/hourglasssand/network/ControlGUIButtonMessage.java",
+          "src/main/java/net/mcreator/hourglasssand/client/gui/ControlGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "GetNowStatus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_now_status",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/hourglasssand/procedures/GetNowStatusProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "To0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/hourglasssand/procedures/To0Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "To1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/hourglasssand/procedures/To1Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "To2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/hourglasssand/procedures/To2Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ChangeStop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "change_stop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/hourglasssand/procedures/ChangeStopProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GetStopStatus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_stop_status",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/hourglasssand/procedures/GetStopStatusProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ToHourglassSand",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_hourglass_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hourglass_sand/recipe/to_hourglass_sand.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Status",
+      "type": "number",
+      "scope": "map",
+      "value": "1.0"
+    },
+    {
+      "name": "StopStatus",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.hourglass_sand.hourglass_sand": "Hourglass Sand",
+      "getnowstatus.statusstart": "Now Status: ",
+      "getnowstatus.statusend": "x speed",
+      "gui.hourglass_sand.control_gui.button_change_to_1x_speed": "Change to 1x speed",
+      "gui.hourglass_sand.control_gui.button_change_to_05x_speed": "Change to 0.5x speed",
+      "gui.hourglass_sand.control_gui.button_change_to_2x_speed": "Change to 2x speed",
+      "getstopstatus.stopstatusstart": "Stop Status: ",
+      "gui.hourglass_sand.control_gui.button_change": "Change",
+      "gui.hourglass_sand.control_gui.label_click_esc_to_close_this_window": "Click ESC to close this window"
+    },
+    "zh_cn": {
+      "item.hourglass_sand.hourglass_sand": "时间之沙",
+      "getnowstatus.statusstart": "目前状态: ",
+      "getnowstatus.statusend": "倍速",
+      "gui.hourglass_sand.control_gui.button_change_to_1x_speed": "修改为1倍速",
+      "gui.hourglass_sand.control_gui.button_change_to_05x_speed": "修改为0.5倍速",
+      "gui.hourglass_sand.control_gui.button_change_to_2x_speed": "修改为2倍速",
+      "getstopstatus.stopstatusstart": "暂停状态: ",
+      "gui.hourglass_sand.control_gui.button_change": "切换",
+      "gui.hourglass_sand.control_gui.label_click_esc_to_close_this_window": "按下ESC以关闭此窗口"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/hourglasssand/init/HourglassSandModScreens.java",
+      "src/main/java/net/mcreator/hourglasssand/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/hourglasssand/init/HourglassSandModMenus.java",
+      "src/main/java/net/mcreator/hourglasssand/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/hourglasssand/init/HourglassSandModItems.java",
+      "src/main/java/net/mcreator/hourglasssand/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/hourglasssand/HourglassSandModClient.java",
+      "src/main/java/net/mcreator/hourglasssand/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/hourglasssand/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/hourglasssand/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/hourglasssand/event/BlockEvents.java",
+      "src/main/java/net/mcreator/hourglasssand/event/MiscEvents.java",
+      "src/main/resources/META-INF/hourglass_sand.accesswidener",
+      "src/main/java/net/mcreator/hourglasssand/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/hourglasssand/mixin/LivingEntityMixin.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/hourglasssand/network/HourglassSandModVariables.java",
+      "src/main/java/net/mcreator/hourglasssand/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/hourglasssand/HourglassSandMod.java",
+      "src/main/java/net/mcreator/hourglasssand/init/HourglassSandModTabs.java",
+      "src/main/java/net/mcreator/hourglasssand/event/ItemEvents.java",
+      "src/main/resources/hourglass_sand.mixins.json",
+      "src/main/java/net/mcreator/hourglasssand/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/hourglasssand/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/hourglasssand/mixin/ItemStackMixin.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hourglass_sand",
+    "modName": "Hourglass Sand",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "modElementsPackage": "net.mcreator.hourglasssand"
+  },
+  "mcreatorVersion": 202500345720
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "hourglass_sand",
+  "version": "1.0.0",
+  "name": "Hourglass Sand",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.hourglasssand.HourglassSandMod"
+    ],
+    "client": [
+      "net.mcreator.hourglasssand.HourglassSandModClient"
+    ]
+  },
+  "mixins": [
+    "hourglass_sand.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

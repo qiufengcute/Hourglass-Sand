@@ -1,0 +1,11 @@
+{
+  "item.hourglass_sand.hourglass_sand": "时间之沙",
+  "getnowstatus.statusstart": "目前状态: ",
+  "getnowstatus.statusend": "倍速",
+  "gui.hourglass_sand.control_gui.button_change_to_1x_speed": "修改为1倍速",
+  "gui.hourglass_sand.control_gui.button_change_to_05x_speed": "修改为0.5倍速",
+  "gui.hourglass_sand.control_gui.button_change_to_2x_speed": "修改为2倍速",
+  "getstopstatus.stopstatusstart": "暂停状态: ",
+  "gui.hourglass_sand.control_gui.button_change": "切换",
+  "gui.hourglass_sand.control_gui.label_click_esc_to_close_this_window": "按下ESC以关闭此窗口"
+}

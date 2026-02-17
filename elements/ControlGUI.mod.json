@@ -1,0 +1,136 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 300,
+    "height": 120,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_now_status",
+          "text": {
+            "fixedValue": "",
+            "name": "GetNowStatus"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_change_to_05x_speed",
+          "text": "Change to 0.5x speed",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "To0"
+          },
+          "width": 129,
+          "height": 20,
+          "x": 93,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_change_to_1x_speed",
+          "text": "Change to 1x speed",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "To1"
+          },
+          "width": 129,
+          "height": 20,
+          "x": 93,
+          "y": 110,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_change_to_2x_speed",
+          "text": "Change to 2x speed",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "To2"
+          },
+          "width": 129,
+          "height": 20,
+          "x": 93,
+          "y": 135,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_stop_status",
+          "text": {
+            "fixedValue": "",
+            "name": "GetStopStatus"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 270,
+          "y": 67,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_change",
+          "text": "Change",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ChangeStop"
+          },
+          "width": 76,
+          "height": 20,
+          "x": 267,
+          "y": 87,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_click_esc_to_close_this_window",
+          "text": {
+            "fixedValue": "Click ESC to close this window"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 143,
+          "y": 162,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": "minecraft:obsidian",
+    "b": "minecraft:soul_sand",
+    "c": "minecraft:clock",
+    "d": "minecraft:redstone",
+    "e": "minecraft:sand"
+  },
+  "result": {
+    "id": "hourglass_sand:hourglass_sand",
+    "count": 1
+  }
+}

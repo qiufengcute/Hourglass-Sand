@@ -1,0 +1,11 @@
+{
+  "item.hourglass_sand.hourglass_sand": "Hourglass Sand",
+  "getnowstatus.statusstart": "Now Status: ",
+  "getnowstatus.statusend": "x speed",
+  "gui.hourglass_sand.control_gui.button_change_to_1x_speed": "Change to 1x speed",
+  "gui.hourglass_sand.control_gui.button_change_to_05x_speed": "Change to 0.5x speed",
+  "gui.hourglass_sand.control_gui.button_change_to_2x_speed": "Change to 2x speed",
+  "getstopstatus.stopstatusstart": "Stop Status: ",
+  "gui.hourglass_sand.control_gui.button_change": "Change",
+  "gui.hourglass_sand.control_gui.label_click_esc_to_close_this_window": "Click ESC to close this window"
+}
