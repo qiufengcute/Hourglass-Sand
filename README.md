@@ -45,3 +45,8 @@ This mod uses Minecraft's built-in `/tick` command. When you select a mode, it e
 ## Installation / 安装
 
 Drop the jar file into your `mods` folder. That's it. / 将jar文件放入 `mods` 文件夹即可。
+
+---
+
+# ⚠️ Important for Contributors
+If you intend to contribute code, you MUST read: CONTRIBUTING.md Pay special attention to the hard requirements regarding the MCreator workflow.
