@@ -90,18 +90,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -119,18 +107,6 @@
       "registry_name": "to_1",
       "metadata": {
         "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
           {
             "name": "world",
             "type": "world"
@@ -150,18 +126,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -179,18 +143,6 @@
       "registry_name": "change_stop",
       "metadata": {
         "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
           {
             "name": "world",
             "type": "world"
@@ -229,6 +181,24 @@
       "metadata": {
         "files": [
           "src/main/resources/data/hourglass_sand/recipe/to_hourglass_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "Init",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "init",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/hourglasssand/procedures/InitProcedure.java"
         ]
       }
     }
@@ -279,6 +249,7 @@
       "src/main/java/net/mcreator/hourglasssand/init/HourglassSandModScreens.java",
       "src/main/java/net/mcreator/hourglasssand/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/hourglasssand/init/HourglassSandModMenus.java",
+      "src/main/java/net/mcreator/hourglasssand/init/HourglassSandModProcedures.java",
       "src/main/java/net/mcreator/hourglasssand/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/hourglasssand/init/HourglassSandModItems.java",
       "src/main/java/net/mcreator/hourglasssand/mixin/ServerPlayerMixin.java",

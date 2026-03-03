@@ -41,19 +41,19 @@ public record ControlGUIButtonMessage(int buttonID, int x, int y, int z) impleme
 			return;
 		if (buttonID == 0) {
 
-			To0Procedure.execute(world, x, y, z);
+			To0Procedure.execute(world);
 		}
 		if (buttonID == 1) {
 
-			To1Procedure.execute(world, x, y, z);
+			To1Procedure.execute(world);
 		}
 		if (buttonID == 2) {
 
-			To2Procedure.execute(world, x, y, z);
+			To2Procedure.execute(world);
 		}
 		if (buttonID == 3) {
 
-			ChangeStopProcedure.execute(world, x, y, z);
+			ChangeStopProcedure.execute(world);
 		}
 	}
 }

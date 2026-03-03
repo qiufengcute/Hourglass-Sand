@@ -13,11 +13,11 @@ import net.mcreator.hourglasssand.network.HourglassSandModVariables;
 public class To2Procedure {
 	public static boolean eventResult = true;
 
-	public static void execute(LevelAccessor world, double x, double y, double z) {
+	public static void execute(LevelAccessor world) {
 		HourglassSandModVariables.MapVariables.get(world).Status = 2;
 		HourglassSandModVariables.MapVariables.get(world).markSyncDirty();
 		if (world instanceof ServerLevel _level) {
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "tick rate 40");
+			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "tick rate 40");
 		}
 	}
 }

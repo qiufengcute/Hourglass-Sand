@@ -13,14 +13,14 @@ import net.mcreator.hourglasssand.network.HourglassSandModVariables;
 public class ChangeStopProcedure {
 	public static boolean eventResult = true;
 
-	public static void execute(LevelAccessor world, double x, double y, double z) {
+	public static void execute(LevelAccessor world) {
 		if (HourglassSandModVariables.MapVariables.get(world).StopStatus) {
 			if (world instanceof ServerLevel _level) {
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "tick unfreeze");
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "tick unfreeze");
 			}
 		} else {
 			if (world instanceof ServerLevel _level) {
-				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "tick freeze");
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(0, 0, 0), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "tick freeze");
 			}
 		}
 		HourglassSandModVariables.MapVariables.get(world).StopStatus = !HourglassSandModVariables.MapVariables.get(world).StopStatus;

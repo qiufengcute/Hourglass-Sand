@@ -10,6 +10,7 @@ import net.minecraft.util.Tuple;
 
 import net.mcreator.hourglasssand.network.HourglassSandModVariables;
 import net.mcreator.hourglasssand.init.HourglassSandModTabs;
+import net.mcreator.hourglasssand.init.HourglassSandModProcedures;
 import net.mcreator.hourglasssand.init.HourglassSandModMenus;
 import net.mcreator.hourglasssand.init.HourglassSandModItems;
 
@@ -40,6 +41,7 @@ public class HourglassSandMod implements ModInitializer {
 		HourglassSandModVariables.variablesLoad();
 		HourglassSandModItems.load();
 		HourglassSandModMenus.load();
+		HourglassSandModProcedures.load();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init
